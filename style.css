@@ -1,12 +1,19 @@
 html {
   font-size: 18px;
+  color: white;
+  font-style: helvetica;
 }
 body {
 
 }
 header {
   background-color: black;
+  border: 1px solid red;
 }
+header span {
+display: flex;
+align-items: center;
+ }
 header img {
 height: 1.5rem;
 margin-left: 0.5rem;
@@ -15,11 +22,20 @@ margin-right: 1rem;
 }
 header h2 {
 font-size: 1rem;
+padding-top: 0.66rem;
+padding-bottom: 0.66rem;
 }
-.background {
+ .background {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 25rem;
+  margin-top: ;
+}
+.arrival {
+  width: 20rem;
+  background-color: black;
+  top: 9rem;
+  position: relative;
 }
