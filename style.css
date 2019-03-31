@@ -10,7 +10,7 @@ html {
   margin: auto;
 }
 .cheekyextras {
-  justify-content: space-around;
+  justify-content: space-between;
   display: flex;
 }
 header {
@@ -59,4 +59,11 @@ header h2 {
     font-weight: bold;
     margin-left: 3rem;
     margin-bottom: 2rem;
+}
+nav {
+  background-color: firebrick;
+}
+nav p {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
