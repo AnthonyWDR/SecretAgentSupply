@@ -2,11 +2,16 @@ html {
   font-size: 18px;
   color: white;
   background-color: white;
+  font-family: helvetica;
 }
 .container {
   width: 960px;
   display: flex;
-  justify-content: center;
+  margin: auto;
+}
+.cheekyextras {
+  justify-content: space-around;
+  display: flex;
 }
 header {
   background-color: black;
@@ -32,7 +37,7 @@ header h2 {
 }
 .banner .centering {
   background-color: black;
-  width: 20rem;
+  width: 25rem;
 
   display: flex;
   flex-direction: column;
