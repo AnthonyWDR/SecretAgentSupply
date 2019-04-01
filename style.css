@@ -83,6 +83,11 @@ nav p {
   margin-bottom: 0.5rem;
   background-color: black;
 }
+.glasses {
+  display: flex;
+  max-height: 9rem;
+  max-width: 9rem;
+}
 
 footer {
   height: 5rem;
