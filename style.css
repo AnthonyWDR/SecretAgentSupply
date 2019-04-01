@@ -74,7 +74,8 @@ nav p {
   width: 30%;
 }
 .card img {
-  height: 9rem;
+  max-height: 9rem;
+  max-width: 9rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
@@ -83,10 +84,9 @@ nav p {
   margin-bottom: 0.5rem;
   background-color: black;
 }
-.glasses {
+.fleximg {
   display: flex;
-  max-height: 9rem;
-  max-width: 9rem;
+  justify-content: center;
 }
 
 footer {
