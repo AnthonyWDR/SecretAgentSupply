@@ -106,10 +106,17 @@ nav p {
   color: black;
 }
 footer {
-  background-color: black
+
 }
 footer .container {
+  background-color: black;
+}
+footer .justdoit {
+  width: 100%;
   position: relative;
   top: 10rem;
+  height: 10rem;
   background-color: black;
+  display: flex;
+  align-items: center;
 }
