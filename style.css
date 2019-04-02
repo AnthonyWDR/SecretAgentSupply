@@ -117,10 +117,8 @@ footer .justdoit {
   display: flex;
   align-items: center;
 }
-@media only screen and (min-width: 1024px) {
-  nav .notpc {
-    display: none;
-  }
+nav .notpc {
+  display: none;
 }
 @media only screen and (max-width: 1024px) {
   #kill {
@@ -140,7 +138,7 @@ footer .justdoit {
   }
 }
 @media only screen and (max-width: 470px) {
-  #kill {
+  .pc {
     display: none;
   }
   #smallerkill {
