@@ -120,3 +120,19 @@ footer .justdoit {
   display: flex;
   align-items: center;
 }
+@media only screen and (max-width: 1024px) {
+  #kill {
+    display: none;
+  }
+  .card {
+    width: 47%;
+  }
+}
+@media only screen and (max-width: 470px) {
+  #kill {
+    display: none;
+  }
+  #smallerkill {
+    display: none;
+  }
+}
