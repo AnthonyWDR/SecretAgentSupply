@@ -121,13 +121,7 @@ nav .notpc {
   display: none;
 }
 @media only screen and (max-width: 1024px) {
-  #kill {
-    display: none;
-  }
-  nav .pc {
-    display: none;
-  }
-  nav p {
+  .pc {
     display: none;
   }
   .card {
@@ -136,12 +130,12 @@ nav .notpc {
   .container {
     width: 100%;
   }
+  .notpc {
+    display: block;
+  }
 }
 @media only screen and (max-width: 470px) {
   .pc {
     display: none;
-  }
-  #smallerkill {
-
   }
 }
