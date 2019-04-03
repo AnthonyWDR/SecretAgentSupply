@@ -94,7 +94,7 @@ nav p {
 .storeinfo {
   margin-bottom: 4rem;
 }
-.storeinfo .middle {
+.middle {
   width: 35%;
 }
 .storeinfo h3 {
@@ -163,8 +163,12 @@ footer .justdoit {
     .larger, .location, .hours {
       width: 90%;
     }
-    .hours {
+    .storeinfo .hours {
       margin-top: 0.5rem;
+    }
+    .storeinfo .container .middle{
+      display: flex;
+      flex-direction: column;
     }
     footer .justdoit {
       text-align: center;
