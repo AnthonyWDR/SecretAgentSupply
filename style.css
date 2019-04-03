@@ -139,7 +139,34 @@ footer .justdoit {
   }
 }
 @media only screen and (max-width: 470px) {
-  .pc {
-    display: none;
+    .banner .centering {
+      margin-top: 10rem;
+    }
+    .banner {
+      height: 15rem;
+    }
+    .banner h2 {
+      font-size: 0.77rem;
+      font-weight: bold;
+      margin-left: 2rem;
+      padding-top: 1rem;
+    }
+    .banner h1 {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-left: 2rem;
+      padding-bottom: 1rem;
+    }
+    .smallerkill {
+      display: none;
+    }
+    .larger, .location, .hours {
+      width: 90%;
+    }
+    .hours {
+      margin-top: 0.5rem;
+    }
+    footer .justdoit {
+      text-align: center;
+    }
   }
-}
