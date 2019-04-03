@@ -124,6 +124,9 @@ footer .justdoit {
   .pc {
     display: none;
   }
+  .centering {
+    width: 100%;
+  }
   .card {
     width: 47%;
   }
